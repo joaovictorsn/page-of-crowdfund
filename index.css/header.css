@@ -1,0 +1,27 @@
+.header{
+    background-image: url(../images/image-hero-desktop.jpg);
+    background-position:top;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+.header-nav-buttons{
+    flex:1 1 auto;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.header-nav-buttons-content{
+    text-align: end;
+    margin-right: 30%;
+    list-style: none;
+    
+}
+
+.header-logo{
+    margin-top: 45px;
+    margin-left: 12%;
+    flex:1 1 auto;
+}
