@@ -9,13 +9,30 @@ Desenvolvimento do Projeto:
 Criação do Header HTML:
 [X] Colocar a logo
 [X] Criar os buttons do "about", "discover" e "Get Started"
-[] Alinhar os buttons, colocando eles dentro de um tag (nav)
+[X] Alinhar os buttons, colocando eles dentro de um tag (nav)
 Criação do Header CSS:
-[] Criação dos buttons do header
-[] Espaçar os buttons entre eles e posiciona-los na pagina
-[] Posicionar a logo
-[] Colocar um background image-hero.jpg
-[]
-[]
-[]
-[]
+[X] Criação dos buttons do header
+[X] Espaçar os buttons entre eles e posiciona-los na pagina
+[X] Posicionar a logo
+[X] Colocar background image-hero.jpg
+
+Criação do Body HTML: (Separando em 3 containers)
+- Primeiro container:
+[] Criar um bloco bem definido
+[] Colocar locar logo Mastercraft
+[] Alinhar a logo, txts e buttons em row
+[] Criar um h1 para o mastercraft.
+[] Criar os buttons para o container.
+Criação do Body CSS:
+- Primeiro container CSS:
+[] Posicionar o bloco sobre o header, com destaque para o bloco.
+[] Ajustar a logo acima do bloco.
+[] Alinhar em row os blocos dentro do container.
+[] Criar os button.
+[] Separar os os buttons.
+[] Espaçar os elementos.
+[] Criar os modelos de font.
+
+<!-- To JavaScript:
+    
+-->
