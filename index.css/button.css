@@ -26,6 +26,13 @@
     margin-bottom: 35px;
 }
 
+.btn-btn-card-01{
+    border-style: none;
+    border-radius: 40px;
+    font-size: 12px;
+    text-align: end;
+}
+
 .btn-card-03 {
     font-size: 10px;
     padding-left: 20px;
@@ -33,13 +40,6 @@
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 30px;
+    
 }
 
-.btn-btn-card-01{
-    border-style: none;
-    border-radius: 40px;
-    font-size: 12px;
-    text-align: end;
-    
-    
-}

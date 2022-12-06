@@ -9,7 +9,7 @@
     margin-bottom: 15px;
 }
 
-.card-02{
+.card-02-03{
     background-color: #fff;
     margin-left: 25%;
     margin-right: 25%;
@@ -30,4 +30,30 @@
     padding-top: 5%;
     padding-bottom: 3%;
     margin-bottom: 15px;
+}
+
+.content-card-card-03-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.content-card-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.content-card-02-goal{
+    border-right: 1px solid hsl(175, 25%, 81%);
+    padding-right: 5%;
+    flex: 33%;
+    margin-right: 13%;
+
+}
+
+.content-card-02-last-goal{
+    flex: 33%;
 }
