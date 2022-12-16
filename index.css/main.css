@@ -9,6 +9,10 @@
     margin-bottom: 15px;
 }
 
+.logo-mastercraft{
+    margin-top: -25px;
+}
+
 .card-02-03{
     background-color: #fff;
     margin-left: 25%;
@@ -39,11 +43,17 @@
     margin-bottom: 25px;
 }
 
-.content-card-02{
+.content-card-interative-client-description{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    margin-bottom: 25px;
+}
+
+.content-card-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
 }
 
 .content-card-02-goal{
@@ -51,7 +61,6 @@
     padding-right: 5%;
     flex: 33%;
     margin-right: 13%;
-
 }
 
 .content-card-02-last-goal{

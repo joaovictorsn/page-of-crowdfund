@@ -17,21 +17,42 @@ Criação do Header CSS:
 [X] Colocar background image-hero.jpg
 
 Criação do Body HTML: (Separando em 3 containers)
-- Primeiro container:
-[] Criar um bloco bem definido
-[] Colocar locar logo Mastercraft
-[] Alinhar a logo, txts e buttons em row
-[] Criar um h1 para o mastercraft.
-[] Criar os buttons para o container.
+- Primeiro Card:
+[X] Criar um bloco bem definido
+[X] Colocar locar logo Mastercraft
+[X] Alinhar a logo, txts e buttons em row
+[X] Criar um h1 para o mastercraft.
+[X] Criar os buttons para o container.
 Criação do Body CSS:
-- Primeiro container CSS:
-[] Posicionar o bloco sobre o header, com destaque para o bloco.
-[] Ajustar a logo acima do bloco.
-[] Alinhar em row os blocos dentro do container.
-[] Criar os button.
-[] Separar os os buttons.
-[] Espaçar os elementos.
-[] Criar os modelos de font.
+- Primeiro Card CSS:
+[X] Posicionar o bloco sobre o header, com destaque para o bloco.
+[X] Ajustar a logo acima do bloco.
+[X] Alinhar em row os blocos dentro do container.
+[X] Criar os button.
+[X] Separar os os buttons.
+[X] Espaçar os elementos.
+[X] Criar os modelos de font.
+
+- Card Conteúdo da interação com o cliente:
+[X] Criar uma div q contenha todo o conteúdo
+[X] Colocar um h2/h3 no tnhks...
+[X] criar um p
+[X] criar um button (colocar a mesma estilização dos outros)
+- Card conteúdo:
+[X] colocar os intens como collum.
+[X] colocar o estilo dos txts padrões.
+[X] centralizar o card
+[X] dar um tamanho para o card
+[]
+[]
+[]
+[]
+[]
+[]
+
+
+
+
 
 <!-- To JavaScript:
     

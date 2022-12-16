@@ -22,8 +22,12 @@
     font-size: 20px;
 }
 
-.fonte-h3-card{
+.font-marging-botton{
     margin-bottom: 25px;
+}
+
+.font-marging-top{
+    margin-top: 25px;
 }
 
 .font-numbers-card-03{
@@ -31,3 +35,14 @@
     margin-right: 3px;
 }
 
+.font-to-mahogany-interative{
+    margin-left: 10px;
+}
+
+.font-size-16px{
+    font-size: 16px;
+}
+
+.font-size-18px{
+    font-size: 18px;
+}
