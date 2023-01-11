@@ -43,3 +43,9 @@
     
 }
 
+.btn-close-modal{
+    border-style: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
