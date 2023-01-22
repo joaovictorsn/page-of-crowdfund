@@ -8,6 +8,16 @@ var btnClose = document.querySelector('#btn-close');
 
 var btnGoIt = document.querySelector('#btn-Go-It');
 
+var clickSelectorPoint = document.querySelectorAll('.select-option');
+
+var btnContinue = document.querySelectorAll('.btn-continue');
+
+var input = document.getElementsByName('input');
+
+var choiceValue02 = document.querySelector('#choiceValue75');
+var choiceValue01 = document.querySelector('#choiceValue25');
+var choiceValue0 = document.querySelector('#choiceValue');
+
 function addModalDisplayBlock(){
   modal.style.display = "block";
 }
@@ -19,6 +29,10 @@ function addModal02DisplayBlock(){
 
 function closeModal02(){
   modal_02.style.display ='none';
+  choiceValue01.style.display = 'none';
+  choiceValue02.style.display = 'none';
+  choiceValue0.style.display = 'none';
+
 }
 
 
@@ -26,9 +40,44 @@ function closeModal(){
   modal.style.display ='none';
 }
 
+function selectorPoint02(){
+  choiceValue02.style.display = 'block';
+}
+
+function selectorPoint01(){
+  choiceValue01.style.display = 'block';
+}
+
+function selectorPoint0(){
+  choiceValue0.style.display = 'block';
+}
+
+clickSelectorPoint[0].addEventListener('click',()=>{
+  selectorPoint0();
+  choiceValue01.style.display = 'none';
+  choiceValue02.style.display = 'none';
+
+})
+clickSelectorPoint[1].addEventListener('click',()=>{
+  selectorPoint01();
+  choiceValue0.style.display = 'none';
+  choiceValue02.style.display = 'none';
+ 
+})
+clickSelectorPoint[2].addEventListener('click',()=>{
+  selectorPoint02();
+  choiceValue01.style.display = 'none';
+  choiceValue0.style.display = 'none';
+  
+})
+
 btnSelector[0].addEventListener('click',addModalDisplayBlock);
 btnSelector[1].addEventListener('click',addModalDisplayBlock);
 btnSelector[2].addEventListener('click',addModalDisplayBlock);
+
+btnContinue[0].addEventListener('click',closeModal02);
+btnContinue[1].addEventListener('click',closeModal02);
+btnContinue[2].addEventListener('click',closeModal02);
 
 window.addEventListener('click', (e)=>{
   if(e.target == modal){

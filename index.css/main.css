@@ -66,3 +66,7 @@
 .content-card-02-last-goal{
     flex: 33%;
 }
+
+.blur{
+    opacity: 50%;
+}

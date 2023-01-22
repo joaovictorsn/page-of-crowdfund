@@ -104,3 +104,35 @@
 .border-style-emphasis{
     border: hsl(176, 72%, 28%);
 }
+
+.quantity {
+  position: relative;
+}
+
+.cursor-point{
+  cursor: pointer;
+}
+
+.display-none{
+  display: none;
+}
+
+.btn-input{
+  border:  0.5px solid hsl(176, 72%, 28%);
+  border-radius: 20px;
+  height: 3vh;
+  width: 6vw;
+  margin-left: 10vh;
+  text-align: center;
+}
+
+.btn-input:focus{
+  outline: 0;
+}
+
+.display-flex-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
