@@ -31,6 +31,7 @@
     border-radius: 40px;
     font-size: 12px;
     text-align: end;
+    
 }
 
 .btn-card-03 {
@@ -47,5 +48,11 @@
     border-style: none;
     background-color: #fff;
     cursor: pointer;
+}
+
+.btn-bookmark{
+    width: 12vw;
+    height: 6.8vh;
+    padding-right: 2vw;
 }
 

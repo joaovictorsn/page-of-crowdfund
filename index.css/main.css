@@ -70,3 +70,13 @@
 .blur{
     opacity: 50%;
 }
+
+.display-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-bookmark{
+    margin-right: -4vw;
+    z-index: 5;
+}
