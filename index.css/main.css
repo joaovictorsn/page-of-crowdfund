@@ -56,11 +56,57 @@
     justify-content: space-between;  
 }
 
+.content-card-to-media-sreen-02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
 .content-card-02-goal{
     border-right: 1px solid hsl(175, 25%, 81%);
     padding-right: 5%;
     flex: 33%;
     margin-right: 13%;
+}
+
+@media screen and (max-width:768px) {
+    .content-card-to-media-sreen-02{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+        align-items: center;
+    }
+    .content-card-02-goal{
+        border-bottom: 1px solid hsl(175, 25%, 81%);
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .font-numbers-card-03{
+        font-size: 25px;
+        margin-right: 0;
+    }
+    .content-card-02-last-goal{
+        margin-top: 5px;
+        text-align: center;
+    }
+    .btn-bookmark{
+        display: none;
+    }
+    .image-bookmark{
+        margin-right: 4vw;
+        z-index: 0;
+    }
+    .display-flex{
+        display: block;
+        margin-right: 5vw;
+    }
+    .btn-input{
+        height: 9vh;
+        width: 10vw;
+      }
 }
 
 .content-card-02-last-goal{
@@ -78,5 +124,5 @@
 
 .image-bookmark{
     margin-right: -4vw;
-    z-index: 5;
+    z-index: 0;
 }
