@@ -35,56 +35,57 @@ function closeModal02(){
 
 }
 
-
 function closeModal(){
   modal.style.display ='none';
 }
 
 function selectorPoint02(){
   choiceValue02.style.display = 'block';
+  choiceValue01.style.display = 'none';
+  choiceValue0.style.display = 'none';
 }
 
 function selectorPoint01(){
   choiceValue01.style.display = 'block';
+  choiceValue0.style.display = 'none';
+  choiceValue02.style.display = 'none';
 }
 
 function selectorPoint0(){
   choiceValue0.style.display = 'block';
+  choiceValue01.style.display = 'none';
+  choiceValue02.style.display = 'none';
 }
 
 clickSelectorPoint[0].addEventListener('click',()=>{
   selectorPoint0();
-  choiceValue01.style.display = 'none';
-  choiceValue02.style.display = 'none';
 
 })
 clickSelectorPoint[1].addEventListener('click',()=>{
   selectorPoint01();
-  choiceValue0.style.display = 'none';
-  choiceValue02.style.display = 'none';
  
 })
 clickSelectorPoint[2].addEventListener('click',()=>{
   selectorPoint02();
-  choiceValue01.style.display = 'none';
-  choiceValue0.style.display = 'none';
   
 })
 
-btnSelector[0].addEventListener('click',addModalDisplayBlock);
-btnSelector[1].addEventListener('click',addModalDisplayBlock);
-btnSelector[2].addEventListener('click',addModalDisplayBlock);
-
-btnContinue[0].addEventListener('click',closeModal02);
-btnContinue[1].addEventListener('click',closeModal02);
-btnContinue[2].addEventListener('click',closeModal02);
+btnSelector.forEach((btnSelect) => {
+  btnSelect.addEventListener('click',()=>{
+    addModalDisplayBlock();
+  })
+})
+btnContinue.forEach((btnContinue) => {
+  btnContinue.addEventListener('click',()=>{
+    closeModal02();
+  })
+})
 
 window.addEventListener('click', (e)=>{
   if(e.target == modal){
     closeModal();
   }
 })
-
 window.addEventListener('click', (e)=>{
   if(e.target == modal_02){
     closeModal02();
@@ -92,34 +93,4 @@ window.addEventListener('click', (e)=>{
 })
 
 btnClose.addEventListener('click',closeModal02);
-
 btnGoIt.addEventListener('click',addModal02DisplayBlock);
-
-
-
-
-
-// var modal = document.getElementById("myModal");
-
-// // Get the button that opens the modal
-// var btn = document.getElementById("myBtn");
-
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks the button, open the modal 
-// btn.onclick = function() {
-//   modal.style.display = "block";
-// }
-
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() {
-//   modal.style.display = "none";
-// }
-
-// // When the user clicks anywhere outside of the modal, close it
-// window.onclick = function(event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// }
